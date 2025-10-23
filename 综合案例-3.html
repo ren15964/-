@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #ccc;
+    }
+
+    .cart {
+      width: 234px;
+      height: 300px;
+      background: #fff;
+      margin: 80px auto;
+      text-align: center;
+      transition: all 0.5s;
+    }
+
+    .cart img {
+      width: 160px;
+      height: 160px;
+      margin-top: 20px;
+    }
+
+    .cart-title {
+      font-size: 14px;
+      font-weight: 400;
+      color: #333;
+      margin-top: 18px;
+    }
+
+    .cart-message {
+      font-size: 12px;
+      color: #b0b0b0;
+      padding: 0 10px;
+      /* 单行文本超出部分省略号 */
+      /* 溢出隐藏 */
+      overflow: hidden;
+      /* 文本溢出部分省略号（ellipsis） */
+      text-overflow: ellipsis;
+      /* 不换行 */
+      white-space: nowrap;
+    }
+
+    .cart-price {
+      margin-top: 10px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #ff6700;
+    }
+
+    .cart-price del {
+      font-size: 12px;
+      color: #b0b0b0;
+    }
+
+    .cart:hover {
+      box-shadow: 10px 10px 50px 10px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cart">
+    <img src="../img/mi.webp" alt="无法显示" title="小米13">
+    <h3 class="cart-title">小米13</h3>
+    <p class="cart-message">舒适无感佩戴|高通全链路无损音质舒适无感佩戴|高通全链路无损音质</p>
+    <p class="cart-price">
+      <span>￥3999</span>
+      <del>￥4999</del>
+    </p>
+  </div>
+  <div class="cart">
+    <img src="../img/mi.webp" alt="无法显示" title="小米13">
+    <h3 class="cart-title">小米13</h3>
+    <p class="cart-message">舒适无感佩戴|高通全链路无损音质舒适无感佩戴|高通全链路无损音质</p>
+    <p class="cart-price">
+      <span>￥3999</span>
+      <del>￥4999</del>
+    </p>
+  </div>
+</body>
+
+</html>
